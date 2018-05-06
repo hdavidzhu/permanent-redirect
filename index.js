@@ -1,7 +1,7 @@
 const cheerio = require('cheerio')
 const request = require('request-promise')
 
-const STARTING_URL = 'https://permanent-redirect.xyz/pages/1515229822'
+const STARTING_URL = 'https://permanent-redirect.xyz/pages/1515315222'
 
 async function getPage(url) {
   const html = await request.get(url)
